@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
+        <script src="jquery.scaletextarea.js" type="text/javascript"></script>
+        <script>
+        $(document).ready(function(){
+
+            $(".field").bind('mScaleTextarea', function(){
+                $(".container").html("Width:" + $(this).outerWidth() + " x Height:" + $(this).outerHeight() + "<br />");
+            });
+
+        });
+        </script>
+    </head>
+    <body>
+        <textarea class="field"></textarea>
+        <div class="container"></div>
+    </body>
+</html>
