@@ -1,6 +1,6 @@
 # scaleTextarea
 
-**scaleTextarea** is a new event that retrieves the dimensions of a textarea by scaling it in real time
+**scaleTextarea** is a new jquery event that retrieves the dimensions of a textarea by scaling it in real time
 
 An Example:
 
